@@ -1,0 +1,24 @@
+{
+  "name": "nasa-backend",
+  "version": "1.0.0",
+  "description": "AF assignment 2 - IT21810350",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "IT21810350 - RATHNAYAKE W.K.G.P.M",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}
